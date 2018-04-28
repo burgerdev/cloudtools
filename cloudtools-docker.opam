@@ -1,0 +1,15 @@
+opam-version: "1.2"
+name: "cloudtools-docker"
+version: "0.1"
+maintainer: "Markus Rudy <webmaster@burgerdev.de>"
+authors: ["Markus Rudy <webmaster@burgerdev.de>"]
+homepage: "https://github.com/burgerdev/cloudtools"
+doc: "https://io.burgerdev.de/docs/cloudtools"
+bug-reports: "https://github.com/burgerdev/cloudtools/issues"
+dev-repo: "https://github.com/burgerdev/cloudtools.git"
+license: "MIT"
+build: [["jbuilder" "build" "-p" name "-j" jobs]]
+depends: [
+    "unix"
+]
+available: [ocaml-version >= "4.06.0"]

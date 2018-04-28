@@ -1,0 +1,11 @@
+(jbuild_version 1)
+
+(executables
+ ((names (pid1))
+  (libraries (cloudtools-docker))))
+
+(alias
+ ((name    examples)
+  (deps    (pid1.exe))
+ )
+)
