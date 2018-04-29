@@ -1,0 +1,9 @@
+(jbuild_version 1)
+
+(library
+ ((name cloudtools)
+  (public_name cloudtools)
+  (synopsis "tools for running in the cloud")
+  (libraries (cloudtools-docker))
+ )
+)

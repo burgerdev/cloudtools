@@ -1,4 +1,4 @@
-open Cloudtools_docker
+open Cloudtools.Docker
 
 let _ = init @@ fun _ ->
   Printf.printf "Hello, fork\n";

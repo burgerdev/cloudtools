@@ -2,7 +2,7 @@
 
 (executables
  ((names (pid1))
-  (libraries (cloudtools-docker))))
+  (libraries (cloudtools))))
 
 (alias
  ((name    examples)
