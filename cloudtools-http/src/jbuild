@@ -1,0 +1,9 @@
+(jbuild_version 1)
+
+(library
+ ((name cloudtools_http)
+  (public_name cloudtools-http)
+  (synopsis "tools for running HTTP services")
+  (libraries (cohttp cohttp-lwt cohttp-lwt-unix))
+ )
+)
