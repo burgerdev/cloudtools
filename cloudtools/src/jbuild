@@ -4,6 +4,6 @@
  ((name cloudtools)
   (public_name cloudtools)
   (synopsis "tools for running in the cloud")
-  (libraries (cloudtools-docker))
+  (libraries (cloudtools-docker cloudtools-http))
  )
 )

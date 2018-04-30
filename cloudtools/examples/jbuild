@@ -1,11 +1,11 @@
 (jbuild_version 1)
 
 (executables
- ((names (pid1))
-  (libraries (cloudtools))))
+ ((names (pid1 http_server))
+  (libraries (cloudtools lwt))))
 
 (alias
  ((name    examples)
-  (deps    (pid1.exe))
+  (deps    (pid1.exe http_server.exe))
  )
 )
