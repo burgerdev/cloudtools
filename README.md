@@ -31,3 +31,12 @@ that leverages the power of
 [light-weight cooperative threads](http://ocsigen.org/lwt/).
 
 [examples/http_server.ml](examples/http_server.ml)
+
+## You're Hiding Something!
+
+Yes, it's not perfect. Let's work on that. Things that I'm not aware of:
+
+* [gRPC](https://grpc.io/docs/guides/) implementation
+* [OpenTracing](http://opentracing.io/documentation/pages/api/api-implementations.html) library
+* [Prometheus](https://prometheus.io/docs/instrumenting/writing_clientlibs/) metrics library
+* [GELF](http://docs.graylog.org/en/latest/pages/gelf.html#gelf) logging (or similar)
